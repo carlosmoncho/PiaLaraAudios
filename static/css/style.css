@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f5f5f5;
+  }
+  
+  .header {
+    margin-bottom: 2em;
+  }
+  
+  .text-center {
+    text-align: center;
+    color: #333;
+  }
+  
+  .audio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .visualizer {
+    width: 100%;
+    background-color: #ddd;
+    margin-bottom: 1em;
+  }
+  
+  .record-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    background-color: #ff4f5e;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .record-button:hover {
+    background-color: #ff6f7e;
+  }
+  
+  .svg-record, .svg-stop {
+    fill: #fff;
+  }
+  
+  .bottom {
+    margin-top: 2em;
+  }
+  
+  .button {
+    padding: 1em 2em;
+    background-color: #62b333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #8bb970;
+  }
+  
+  .spinner-border {
+    margin-right: 0.5em;
+  }
+  
+  .svg-stop {
+    display: none;
+  }
